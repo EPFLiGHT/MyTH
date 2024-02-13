@@ -78,7 +78,7 @@ Do not forget to distribute the data by setting `-d` if you have not done so yet
 
 ### 📊 Evaluation
 _____________________________
-Note that the values of accuracy output during training are not reliable for CheXpert data due to the test set imbalance. Thus we need to reevaluate the models using balanced accuracy metrics. This can be done using [`CheXpert_evaluation.ipynb`](CheXpert_evaluation.py) notebook. Please, provide the paths to the models in the corresponding cells.
+Note that the values of accuracy output during training are not reliable for CheXpert data due to the test set imbalance. Thus we need to reevaluate the models using balanced accuracy metrics. This can be done using [`CheXpert_evaluation.ipynb`](CheXpert_evaluation.ipynb) notebook. Please, provide the paths to the models in the corresponding cells.
 
 ### 🔍 Bias identification in a test image
 _________________________________
