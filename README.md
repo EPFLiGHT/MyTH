@@ -1,6 +1,6 @@
-## My-This-Your-That---Interpretable Identification of Systematic Bias in Federated Learning for Biomedical Images
+## MyThisYourThat: Interpretable Identification of Systematic Bias in Federated Learning for Biomedical Images
 
-☕ This repository contains code for the `inDISCO` model, a novel extension of `ProtoPNet` ([Chen et al.](https://arxiv.org/abs/1806.10574)) for interpretable and privacy-preserving identification of data bias in federated learning for images. The materials necessary to implement the baseline original `ProtoPNet` were adopted from [this repository](https://github.com/cfchen-duke/ProtoPNet).
+☕ This repository contains code for the `MyTH` model, a novel extension of `ProtoPNet` ([Chen et al.](https://arxiv.org/abs/1806.10574)) for interpretable and privacy-preserving identification of data bias in federated learning for images. The materials necessary to implement the baseline original `ProtoPNet` were adopted from [this repository](https://github.com/cfchen-duke/ProtoPNet).
 
 Here are the steps to reproduce our approach.
 
