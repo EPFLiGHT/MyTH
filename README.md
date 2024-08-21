@@ -2,6 +2,8 @@
 
 ☕ This repository contains code for the `MyTH` model, a novel extension of `ProtoPNet` ([Chen et al.](https://arxiv.org/abs/1806.10574)) for interpretable and privacy-preserving identification of data bias in federated learning for images. The materials necessary to implement the baseline original `ProtoPNet` were adopted from [this repository](https://github.com/cfchen-duke/ProtoPNet).
 
+`MyTH` will also be soon available within [DISCO](https://discolab.ai/#/) web platform for collaborative model training ([GitHub repository](https://github.com/klavdiiaN/disco/tree/ppnet/discojs/src/models/ppnet)).
+
 Here are the steps to reproduce our approach.
 
 ### 🗃️ Data preprocessing
