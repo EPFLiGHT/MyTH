@@ -87,3 +87,20 @@ _________________________________
 To find a patch in a test image mostly activated by the prototypes learned by different models, we adapted a script from the [`ProtoPNet's` repository](https://github.com/cfchen-duke/ProtoPNet). To analyze CM and LM models, run [`local_analysis_CM_LM.py`](local_analysis_CM_LM.py) specifying the name of a test image and paths to the models and prototypes. The script will output the predicted class and top-10 most activated prototypes with the similarity scores and class-connection values. It will also create a folder with the most activated patches in the test image and the corresponding nearest prototypes from the training set. The folder is named `most_activated_prototypes`. Consider saving it in a different directory or renaming it before running the script again.
 
 For the GM and PM, run the [`local_analysis_fed.py`](local_analysis_fed.py) script to find the most activated patches in a test image. In this case, you also need to specify the number of a client for which you analyze the model.
+
+### 🔗 Reference
+_____________________________
+If you find our work relevant to your research and would like to use this code, please cite our [paper](https://www.nature.com/articles/s41746-024-01226-1):
+
+Naumova, K., Devos, A., Karimireddy, S.P., Jaggi M., Hartley M.-A. MyThisYourThat for interpretable identification of systematic bias in federated learning for biomedical images. *npj Digit. Med.* **7**, 238 (2024). [https://doi.org/10.1038/s41746-024-01226-1](https://doi.org/10.1038/s41746-024-01226-1)
+
+```
+@article{Naumova2024MyTH,
+  title={MyThisYourThat for interpretable identification of systematic bias in federated learning for biomedical images},
+  author={Naumova, Klavdiia and Devos, Arnout and Karimireddy, Sai Praneeth and Jaggi, Martin and Hartley Mary-Anne},
+  journal={npj Digital Medicine},
+  publisher={Nature Portfolio},
+  year={2024},
+  volume={7}
+}
+```
